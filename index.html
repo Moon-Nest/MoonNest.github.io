@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MoonNest Project</title>
+    <style>
+        body {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        header {
+            background-color: #2c3e50;
+            color: white;
+            padding: 2rem 0;
+            text-align: center;
+        }
+        nav {
+            background-color: #34495e;
+            overflow: hidden;
+        }
+        nav a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 1rem 2rem;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background-color: #2c3e50;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 2rem auto;
+            padding: 2rem;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+        footer {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        .gallery img {
+            width: 100%;
+            height: auto;
+            margin-bottom: 1rem;
+            border-radius: 8px;
+        }
+        .faq h3 {
+            margin-top: 2rem;
+        }
+        .faq p {
+            margin-bottom: 1rem;
+        }
+        .newsletter {
+            margin-top: 2rem;
+        }
+        .newsletter input[type="email"] {
+            width: 100%;
+            padding: 0.5rem;
+            margin-bottom: 1rem;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        .newsletter input[type="submit"] {
+            background-color: #34495e;
+            color: white;
+            padding: 0.5rem 1rem;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .newsletter input[type="submit"]:hover {
+            background-color: #2c3e50;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>MoonNest Project</h1>
+        <p>Building Rockets from Scratch on the Moon</p>
+    </header>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About Us</a>
+        <a href="#technology">Technology</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#faq">FAQ</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="container" id="home">
+        <h2>Welcome to MoonNest</h2>
+        <p>MoonNest is an ambitious project aimed at building rockets from scratch on the Moon. Through teleoperation of mobile robot arms, we melt rocks to get metal powder using the power of sunshine, then 3D print the rocket and fire it up.</p>
+    </div>
+    <div class="container" id="about">
+        <h2>About Us</h2>
+        <p>Our team is dedicated to pushing the boundaries of space exploration. With a combination of innovative technology and passionate individuals, we strive to make the MoonNest project a reality.</p>
+        <p>We believe that the future of space exploration lies in sustainable and innovative solutions. By building rockets directly on the Moon, we aim to reduce the cost and environmental impact of space travel.</p>
+    </div>
+    <div class="container" id="technology">
+        <h2>Technology</h2>
+        <p>We utilize advanced teleoperation techniques to control mobile robot arms on the Moon. By melting rocks to extract metal powder using solar energy, we can then 3D print rocket components directly on the lunar surface.</p>
+        <p>Our technology includes:</p>
+        <ul>
+            <li>Teleoperation of mobile robot arms</li>
+            <li>Solar-powered rock melting</li>
+            <li>3D printing of rocket components</li>
+            <li>Advanced materials science</li>
+        </ul>
+    </div>
+    <div class="container" id="gallery">
+        <h2>Gallery</h2>
+        <div class="gallery">
+            <img src="moonnest1.png" alt="Image 1">
+        </div>
+    </div>
+    <div class="container" id="faq">
+        <h2>FAQ</h2>
+        <div class="faq">
+            <h3>What is the MoonNest project?</h3>
+            <p>MoonNest is a project aimed at building rockets from scratch on the Moon using teleoperation of mobile robot arms, solar-powered rock melting, and 3D printing.</p>
+            <h3>How does the technology work?</h3>
+            <p>We use advanced teleoperation techniques to control mobile robot arms on the Moon. These arms melt rocks to extract metal powder using solar energy, which is then used to 3D print rocket components.</p>
+            <h3>What are the benefits of building rockets on the Moon?</h3>
+            <p>Building rockets on the Moon reduces the cost and environmental impact of space travel, making it a more sustainable and innovative solution for space exploration.</p>
+        </div>
+    </div>
+    <div class="container" id="contact">
+        <h2>Contact</h2>
+        <form>
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name"><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email"><br>
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message"></textarea><br>
+            <input type="submit" value="Submit">
+        </form>
+        <div class="newsletter">
+            <h3>Sign Up for Our Newsletter</h3>
+            <form>
+                <input type="email" id="newsletter-email" name="newsletter-email" placeholder="Enter your email">
+                <input type="submit" value="Subscribe">
+            </form>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 MoonNest Project. All rights reserved.</p>
+    </footer>
+</body>
+</html>
